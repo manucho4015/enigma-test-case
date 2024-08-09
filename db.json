@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Day 1",
+      "description": "New Day",
+      "isLiked": true
+    },
+    {
+      "id": "2",
+      "title": "Day 2",
+      "description": "Second day",
+      "isLiked": false
+    },
+    {
+      "id": "3",
+      "title": "Day 3",
+      "description": "Third Day",
+      "isLiked": false
+    },
+    {
+      "id": "4",
+      "title": "Day 4",
+      "description": "Fourth Day",
+      "isLiked": false
+    },
+    {
+      "id": "1",
+      "title": "Day 1",
+      "description": "New Day",
+      "isLiked": true
+    },
+    {
+      "id": "1",
+      "title": "Day 1",
+      "description": "New Day",
+      "isLiked": true
+    },
+    {
+      "id": "3",
+      "title": "Day 3",
+      "description": "Third Day",
+      "isLiked": true
+    },
+    {
+      "id": "1",
+      "title": "Day 1",
+      "description": "New Day",
+      "isLiked": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "This was an awesome day",
+      "postId": "2"
+    },
+    {
+      "id": "3",
+      "text": "I came in at 9:15",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

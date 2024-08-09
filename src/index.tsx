@@ -3,13 +3,34 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { store } from './app/store'
+import { Provider } from 'react-redux'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Index from './pages/Index';
+import Posts from './pages/Posts';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Index />,
+  },
+  {
+    path: "/posts",
+    element: <Posts />,
+  },
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );
 
